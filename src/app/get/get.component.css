@@ -1,0 +1,46 @@
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-row {
+    width: 735px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    text-justify: inter-word;
+    vertical-align: top;
+}
+
+.right {
+    float: right;
+}
+
+.large {
+    width: 100%;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.get-font {
+    font-family: 'bahnschrift';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.padded {
+    padding: 0px 0px 10px 0px;
+    margin-top: 8px;
+}
+
+.stretch {
+    width: 100%;
+}

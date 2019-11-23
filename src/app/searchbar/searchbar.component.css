@@ -1,0 +1,27 @@
+.searchbar-background {
+    height: 78px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+
+.searchbar {
+    height: 42px;
+    margin: 16px 24px;
+}
+
+input {
+    text-indent: 12px;
+    width: 100%;
+    margin: 0px 15px;
+    height: 42px;
+    width: 725px;
+    background-image: url("/assets/ic/black/ic_search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 6px;
+}

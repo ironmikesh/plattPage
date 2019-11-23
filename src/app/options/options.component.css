@@ -1,0 +1,79 @@
+.one-per-row {
+    margin: 5px;
+    text-align: center;
+    min-width: 280px;
+}
+
+.categories-icon {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.options-icon {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.font1 {
+    font-family: 'bahnschrift';
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
+    min-width: 280px;
+    background-color: lightgrey;
+    padding: 1px;
+    grid-gap: 1px;
+}
+
+.grid-item {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.font2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'bahnschrift';
+}
+
+.grid-container-new {
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    align-self: center;
+}
+
+.grid-left-new {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid-center-new {
+    width: 34%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid-right-new {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid-item-new {
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    height: 30px;
+    padding-top: 10px;
+    width: 100%;
+}

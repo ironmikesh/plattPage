@@ -1,0 +1,85 @@
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-row {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    text-justify: inter-word;
+    vertical-align: top;
+}
+
+.medium {
+    width: 360px;
+    height: 160px;
+    margin: 10px 8px;
+}
+
+.small {
+    width: 152px;
+    height: 160px;
+    margin: 10px 21px;
+}
+
+.recent-text {
+    padding: 0px 10px;
+}
+
+.black {
+    color: black;
+}
+
+.green {
+    color: rgb(0, 136, 51);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.recent-images {
+    width: 100%;
+    text-align: center;
+}
+
+.recent-image {
+    padding: 5px;
+}
+
+.card-font {
+    font-family: 'bahnschrift';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.super {
+    margin: 5px 0px;
+}
+
+.branch {
+    margin: 12px 0px;
+}
+
+.help {
+    margin: 18px 0px;
+    ;
+}
+
+.university {
+    margin: 20px 0px;
+}

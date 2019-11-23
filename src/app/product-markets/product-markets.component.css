@@ -1,0 +1,48 @@
+div.market-container {
+    width: 110px;
+    min-width: 110px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 141px;
+    min-height: 141px;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.market-pic {
+    height: 77px;
+    min-height: 77px;
+    width: 100%;
+    margin: 0px;
+}
+
+div.label {
+    padding: 4px 0px;
+    font-family: 'bahnschrift';
+    font-size: 16px;
+    font-weight: 800;
+}
+
+div.label.two-high {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.market-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.market-header-font {
+    font-family: 'bahnschrift';
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.market-options {
+    width: 100%;
+    text-align: center;
+    text-justify: inter-word;
+    transition: all 0.5s ease-in-out;
+}

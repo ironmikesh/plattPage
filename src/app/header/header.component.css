@@ -1,0 +1,27 @@
+.toolbar-background {
+    height: 27px;
+    margin: 0px;
+    display: flex;
+    align-items: top;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+
+.header {
+    margin-top: 12px;
+    margin-right: 3px;
+}
+
+.logo {
+    margin-left: 21px;
+    height: 23px;
+}
+
+.toolbar-icon {
+    margin-right: 21px;
+}
+
+.spacer {
+    flex: 1;
+}

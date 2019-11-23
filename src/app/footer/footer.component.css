@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'bahnschrift';
+    color: white;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.medium-size {
+    font-size: 14px;
+}
+
+.inline {
+    display: inline-block;
+    padding: 5px 80px;
+}

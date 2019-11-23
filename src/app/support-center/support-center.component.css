@@ -1,0 +1,56 @@
+.center {
+    text-align: center;
+}
+
+.support {
+    font-family: 'bahnschrift';
+    color: white;
+}
+
+.padded {
+    padding: 10px 0px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.live-help {
+    height: 37px;
+    width: 200px;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 18px;
+}
+
+.ico-help:before {
+    background: url("/assets/ic/black/ic_chat.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin-right: 13px;
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    content: "";
+}

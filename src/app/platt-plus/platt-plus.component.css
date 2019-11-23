@@ -1,0 +1,55 @@
+.white-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    max-width: 735px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.pp-content {
+    display: inline-block;
+}
+
+.left-side {
+    margin: 30px 60px;
+}
+
+.right-side {
+    text-align: center;
+    margin: 30px 60px;
+}
+
+.get-started {
+    font-family: "bahnschrift";
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.become {
+    font-family: "bahnschrift";
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.black {
+    color: black;
+}
+
+.green {
+    color: rgb(0, 136, 51);
+}
+
+.btn-learn-more {
+    height: 37px;
+    width: 200px;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 18px;
+}
