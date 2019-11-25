@@ -1,22 +1,3 @@
 .page-global {
     width: 100%;
 }
-
-.white-background {
-    background-color: white;
-}
-
-.gray-background {
-    background-color: rgb(238, 238, 238);
-    padding-bottom: 20px;
-}
-
-@font-face {
-    font-family: bahnschrift;
-    src: url("/assets/fonts/Bahnschrift.ttf") format("truetype");
-}
-
-.dark-gray-background {
-    background-color: rgb(102, 102, 102);
-    padding-bottom: 20px;
-}

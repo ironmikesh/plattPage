@@ -12,8 +12,16 @@ import { CardsComponent } from './cards/cards.component';
 import { GetComponent } from './get/get.component';
 import { SupportCenterComponent } from './support-center/support-center.component';
 import { FooterComponent } from './footer/footer.component';
+import { CatalogComponent } from './catalog/catalog.component';
+import { HomeComponent } from './home/home.component';
+import { appRoutingModule } from './app.routing';
 
 @NgModule({
+  imports: [
+    BrowserModule,
+    appRoutingModule,
+    BrowserAnimationsModule
+  ],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -24,11 +32,9 @@ import { FooterComponent } from './footer/footer.component';
     CardsComponent,
     GetComponent,
     SupportCenterComponent,
-    FooterComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule
+    FooterComponent,
+    CatalogComponent,
+    HomeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
