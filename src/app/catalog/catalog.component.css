@@ -1,0 +1,13 @@
+.white-background {
+    background-color: white;
+}
+
+.gray-background {
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 20px;
+}
+
+.dark-gray-background {
+    background-color: rgb(102, 102, 102);
+    padding-bottom: 20px;
+}

@@ -58,7 +58,11 @@
 }
 
 .recent-image {
-    padding: 5px;
+    padding: 6px;
+}
+
+.recent-spacer {
+    height: 30px;
 }
 
 .card-font {

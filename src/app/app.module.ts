@@ -15,6 +15,11 @@ import { SupportCenterComponent } from './support-center/support-center.componen
 import { FooterComponent } from './footer/footer.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { HomeComponent } from './home/home.component';
+import { OptionPIMComponent } from './option-pim/option-pim.component';
+import { OptionMylistComponent } from './option-mylist/option-mylist.component';
+import { OptionLivehelpComponent } from './option-livehelp/option-livehelp.component';
+import { OptionAccountComponent } from './option-account/option-account.component';
+import { OptionBranchlocationsComponent } from './option-branchlocations/option-branchlocations.component';
 
 @NgModule({
   imports: [
@@ -34,7 +39,12 @@ import { HomeComponent } from './home/home.component';
     SupportCenterComponent,
     FooterComponent,
     CatalogComponent,
-    HomeComponent
+    HomeComponent,
+    OptionPIMComponent,
+    OptionMylistComponent,
+    OptionLivehelpComponent,
+    OptionAccountComponent,
+    OptionBranchlocationsComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
