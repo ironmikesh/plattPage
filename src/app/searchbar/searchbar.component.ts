@@ -13,14 +13,22 @@ export class SearchbarComponent implements OnInit {
   searchString = '';
   threeSuggestions = [];
 
+  /**
+   * findThreeSuggestions function
+   * Calls the SWAPI with the searchString input by user
+   * Fills an array of threeSuggestions with up to three names
+   * 
+   * @param searchString global variable: the user input from the search bar
+   * @param threeSuggestions global array: holds up to three suggestions based on user input
+   */
 
   findThreeSuggestions() {
     
-    console.log('searchString = ', this.searchString);
     this.dataService.searchPeople(this.searchString).subscribe((response: any) => {
-      console.log('Search Response is : ', response);
       
-      this.threeSuggestions = [];
+      this.threeSuggestions = [];  //clear array
+
+      //set length of array based on number of suggestions (max three)
       var numberOfSuggestions;
 
       if(response.results.length >= 3) {
@@ -30,41 +38,19 @@ export class SearchbarComponent implements OnInit {
         numberOfSuggestions = response.results.length;
       }
 
+      //if there IS any search input, fill array with first three names
       if(this.searchString) {
         for(let i = 0; i < numberOfSuggestions; i++) {
           this.threeSuggestions.push(response.results[i].name);
         }
       }
-      
-      console.log('this.threeSuggestions: ', this.threeSuggestions);
-           
-    })
+    });
   } 
-
- 
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
 
-    // this.dataService.getPeople().subscribe((data: any[]) => {
-    //   console.log('Simple Get Data is: ', data);
-    //   this.names = data;
-    //   console.log('this.names = ', this.names);
-    // })
-
-    // this.dataService.searchPeople(this.searchString).subscribe((response) => {
-    //   console.log('Search Response is : ', response);
-    //   // this.searchResults = response;
-    //   // console.log('searchResults == ', this.searchResults);
-    // })
-
-    console.log('this.threeSuggestions: ', this.threeSuggestions);
-
   }
-
-
-
-
 
 }

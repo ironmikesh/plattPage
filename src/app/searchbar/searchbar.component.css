@@ -29,3 +29,16 @@ input {
 .no-bullet {
     list-style-type: none;
 }
+
+.overlay {
+    position: fixed;
+    left: 20px;
+    top: 105px;
+    background-color: green;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+
+.add-space {
+    padding: 5px 0px;
+}

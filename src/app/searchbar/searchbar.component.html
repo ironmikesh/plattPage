@@ -3,9 +3,14 @@
         <input [(ngModel)]="searchString" type="text" placeholder="Search for a Star Wars Character..." (keyup)="findThreeSuggestions()">
     </div>
 
-    <!-- Auto-complete of some sort Suggestions -->
-    <div *ngIf="threeSuggestions.length > 0" class="overlay-outer">
-        <li class="no-bullet"
+    <!-- TODO: once an implementation of a Platt Search happens, 
+         the placeholder for the above search bar SHOULD read 
+         "What are you looking for?"
+        But since I've implemented the SWAPI, I changed the placeholder accordingly -->
+
+    <!-- "Auto-complete of some sort" Suggestions List -->
+    <div *ngIf="threeSuggestions.length > 0" class="overlay">
+        <li class="no-bullet add-space"
             *ngFor="let name of threeSuggestions">{{name}}</li>
     </div>
 </div>
