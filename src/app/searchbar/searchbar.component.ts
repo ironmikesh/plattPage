@@ -17,7 +17,7 @@ export class SearchbarComponent implements OnInit {
   findThreeSuggestions() {
     
     console.log('searchString = ', this.searchString);
-    this.dataService.searchPeople(this.searchString).subscribe((response: Array<any>) => {
+    this.dataService.searchPeople(this.searchString).subscribe((response: any) => {
       console.log('Search Response is : ', response);
       
       this.threeSuggestions = [];
@@ -47,17 +47,17 @@ export class SearchbarComponent implements OnInit {
 
   ngOnInit() {
 
-    this.dataService.getPeople().subscribe((data: any[]) => {
-      console.log('Simple Get Data is: ', data);
-      this.names = data;
-      console.log('this.names = ', this.names);
-    })
+    // this.dataService.getPeople().subscribe((data: any[]) => {
+    //   console.log('Simple Get Data is: ', data);
+    //   this.names = data;
+    //   console.log('this.names = ', this.names);
+    // })
 
-    this.dataService.searchPeople(this.searchString).subscribe((response) => {
-      console.log('Search Response is : ', response);
-      // this.searchResults = response;
-      // console.log('searchResults == ', this.searchResults);
-    })
+    // this.dataService.searchPeople(this.searchString).subscribe((response) => {
+    //   console.log('Search Response is : ', response);
+    //   // this.searchResults = response;
+    //   // console.log('searchResults == ', this.searchResults);
+    // })
 
     console.log('this.threeSuggestions: ', this.threeSuggestions);
 

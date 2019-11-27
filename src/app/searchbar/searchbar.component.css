@@ -25,3 +25,7 @@ input {
     background-position: right;
     border-radius: 6px;
 }
+
+.no-bullet {
+    list-style-type: none;
+}

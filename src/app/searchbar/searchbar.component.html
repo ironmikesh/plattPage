@@ -1,10 +1,11 @@
 <div class="searchbar-background">
     <div>
-        <input [(ngModel)]="searchString" type="text" placeholder="What are you looking for?" (keyup)="findThreeSuggestions()">
+        <input [(ngModel)]="searchString" type="text" placeholder="Search for a Star Wars Character..." (keyup)="findThreeSuggestions()">
     </div>
 
     <!-- Auto-complete of some sort Suggestions -->
     <div *ngIf="threeSuggestions.length > 0" class="overlay-outer">
-        <li *ngFor="let name of threeSuggestions">{{name}}</li>
+        <li class="no-bullet"
+            *ngFor="let name of threeSuggestions">{{name}}</li>
     </div>
 </div>
